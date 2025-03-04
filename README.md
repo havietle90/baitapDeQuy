@@ -46,11 +46,17 @@ Suy ra,move.count=n*n
 
 **3.Làm sao để tạo ra 8 hướng đi:**
 Ta thấy,một cách dùng if-else(không gọn).
+
 Dùng vòng for.
+
 .Vì ở đây ta không dùng struct nên không return đc local.x và local.y nên ta sẽ đi tìm vị trí x,y tiếp theo và lưu nó vào biến địa phương.
+
 .Trong một lượt mã chỉ đi tối đa 8 cách:
+
 +)Bước 1:đi sang ngang hoặc dọc hai bước:
+
 Tức là,sẽ cộng {2,-2} theo x hoặc {2,-2} theo y
+
 +)Bước 2:đi sang ngang hoặc dọc một bước:
 tương tự cộng {1,-1} theo x hoặc {1,-1) theo y
 Ở đây dùng for vì nó như là cách đếm các trường hợp.
@@ -58,17 +64,25 @@ Ta sẽ tạo một mảng để cộng thêm tham số vào x hoặc y để t�
 
 **4.Xác định các bước đi không hợp lệ.**
 a.Vượt quá khỏi ô cờ:x>N||y>N
+
 b.Ô trước đó đã đi:
+
 .Lập mảng 2 chiều:lưu kq,lúc đầu cho hết là -1,khi bước đi hợp lệ đổi thành moveCount.
 
 **5.Đệ quy:**
+
 .Xác định tham số của hàm:
+
 +)Toạ độ x và y.
+
 +)Vậy cái gì làm trong tham số làm thay đổi hàm đệ quy?
+
 *Ta còn cần một tham số moveCount để dừng hàm.
+
 Funtion(next.x,next.y,movecount+1)
 
 **6.Quay lùi.**
+
 .Khi thăm hết sẽ phải reset lại tọa độ vị trí của next(x,y) về -1.
 
 ---
