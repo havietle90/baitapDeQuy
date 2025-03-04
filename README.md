@@ -23,9 +23,11 @@
 **Input:**
 Kích thước bàn cờ N (N ≥ 1).
 Vị trí ban đầu của con mã (x, y).
+
 **Output:**
 Một dãy các bước đi hợp lệ của con mã sao cho nó đi qua mọi ô đúng một lần.
 Nếu có nhiều lời giải, có thể xuất ra một lời giải bất kỳ. Nếu không có lời giải, thông báo không tìm được.
+
 **Ràng buộc:**
 Con mã chỉ được di chuyển theo quy tắc của cờ vua (chữ "L" - đi 2 ô theo một hướng và 1 ô theo hướng vuông góc).
 Mỗi ô trên bàn cờ chỉ được đi qua đúng một lần.
