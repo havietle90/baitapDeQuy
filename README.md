@@ -161,3 +161,15 @@ Khong tim thay duong di phu hop
 
 ## 6. Link source code
 [Thư mục src](./src)
+## 7. Ưu và nhược điểm
+**Ưu**
+- Triển khai thuật toán backtracking
+- Có cấu trúc dễ hiểu và rõ ràng
+- Sử dụng phương pháp lui hiệu quả(code dừng ngay khi có còn đường hợp lệ)
+**Nhược**
+- Hiệu suất không tối ưu
+- Chưa xử lí được N lớn(>100)
+
+
+
+
