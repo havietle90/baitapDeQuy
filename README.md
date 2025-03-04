@@ -77,6 +77,7 @@ Funtion(next.x,next.y,movecount+1)
 ### Ví dụ 1
 **Input:**  
 3 0 0 
+
 **Output:**  
 Khong tim thay duong di phu hop 
 **Giải thích:**  
@@ -85,14 +86,17 @@ Khong tim thay duong di phu hop
 ### Ví dụ 2
 **Input:**  
 3 1 2
+
 **Output:**  
 Khong tim thay duong di phu hop
+
 **Giải thích:**  
 (Mô tả cách giải)
 
 ### Ví dụ 3
 **Input:**  
 8 0 0 
+
 **Output:**  
 | 0 | 59 | 38 | 33 | 30 | 17 | 8 | 63 |
 
@@ -109,12 +113,14 @@ Khong tim thay duong di phu hop
 | 56 | 43 | 52 | 3 | 22 | 13 | 24 | 5 |
 
 | 51 | 46 | 55 | 44 | 53 | 4 | 21 | 12 |  
+
 **Giải thích:**  
 (Mô tả cách giải)
 
 ### Ví dụ 2
 **Input:**  
 6 2 2
+
 **Output:**  
 | 30 | 33 | 14 | 5 | 24 | 35 |
 
