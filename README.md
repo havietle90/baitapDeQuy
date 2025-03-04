@@ -94,6 +94,7 @@ Funtion(next.x,next.y,movecount+1)
 
 **Output:**  
 Khong tim thay duong di phu hop 
+
 **Giải thích:**  
 (Mô tả cách giải)
 
@@ -154,7 +155,7 @@ Khong tim thay duong di phu hop
 ---
 
 ## 5. Link video báo cáo
-[Video báo cáo nhóm X](#)
+[[Video báo cáo nhóm 14](https://drive.google.com/drive/folders/1pkCnlOs4VXu2Zvig8Cl2AlknB0-Zykud?usp=drive_link)](#)
 
 ---
 
